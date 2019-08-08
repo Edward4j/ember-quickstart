@@ -1,0 +1,13 @@
+{{!--
+<h2>List of Famous Programmers</h2>
+
+<ul>
+  {{#each this.model as |programmer|}}
+    <li>{{programmer}}</li>
+  {{/each}}
+</ul>
+--}
+
+{{!-- outlet --}}
+
+<ProgrammersList @title="List of Famous Programmers" @programmers={{this.model}} />
